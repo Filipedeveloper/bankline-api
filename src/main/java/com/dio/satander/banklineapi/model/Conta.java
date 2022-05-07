@@ -3,6 +3,7 @@ package com.dio.satander.banklineapi.model;
 import javax.persistence.Column;
 import javax.persistence.Embeddable;
 import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Embeddable
 public class Conta {
@@ -12,6 +13,9 @@ public class Conta {
 	
 	@Column(name = "conta_saldo")
 	private double saldo;
+	
+	
+	
 	
 	
 	public Long getNumero() {
